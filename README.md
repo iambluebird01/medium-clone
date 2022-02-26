@@ -1,27 +1,58 @@
-# Next.js + Tailwind CSS Example
+## **`Medium-Clone`**
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+![](https://img.shields.io/github/languages/code-size/iambluebird01/medium-clone?style=flat-square)
+![](https://img.shields.io/github/last-commit/iambluebird01/medium-clone?style=flat-square)
+![](https://img.shields.io/github/languages/top/iambluebird01/medium-clone?style=flat-square)
+![](https://img.shields.io/github/license/iambluebird01/medium-clone?style=flat-square)
 
-## Preview
+---
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+### 🚥 About
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Building medium application clone using **`Next.js`** and **`Sanity`**. This build covers the core functionality (`comment section`) of original medium application. The best thing of the build is, it is fully responsive.
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+### 🛠 Tech used
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- Typescript
+- Next.js
+- TailwindCSS
+- React hooks
+- Hero icons
+- Sanity
 
-## How to use
+---
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### ⛔ Pre-requisites
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+1. Install **`NODE`** (if not already installed)
+2. Setup **`Sanity`** project . Checkout <a href="https://www.sanity.io/get-started">how to setup sanity project?</a>
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+---
+
+### ✅ How to make use of this build?
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/iambluebird01/medium-clone.git
+   ```
+2. Navigate to the cloned directory
+   ```bash
+   cd path/to/cloned/directory
+   ```
+3. Create .env file with following properties and paste sanity config values respectively
+   ```bash
+   NEXT_PUBLIC_SANITY_DATASET= ------------------
+   NEXT_PUBLIC_SANITY_PROJECT_ID= ------------------
+   SANITY_API_TOKEN= ------------------
+   ```
+4. Install node packages
+   ```bash
+   npm install
+   ```
+5. Start the development server
+   ```bash
+   npm start / npm run dev
+   ```
+6. Happy learning 😊
